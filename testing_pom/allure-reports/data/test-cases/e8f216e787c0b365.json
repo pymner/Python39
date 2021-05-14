@@ -1,0 +1,59 @@
+{
+  "uid" : "e8f216e787c0b365",
+  "name" : "test_Login[utxt1]",
+  "fullName" : "pytest_case.test_pytestCase.TestCase#test_Login",
+  "historyId" : "64ae561846d88a541083b9eedee3edf0",
+  "time" : {
+    "start" : 1620881700311,
+    "stop" : 1620881703204,
+    "duration" : 2893
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+  "statusTrace" : "self = <test_pytestCase.TestCase object at 0x0000026D4F399970>\nutxt = {'password': 'hu111111', 'username': 15631223580}\n\n    @pytest.mark.parametrize('utxt', loadyaml('./data/login.yaml'))\n    \n    def test_Login(self, utxt):\n>       self.lg.Login(utxt['username'], utxt['password'])\n\npytest_case\\test_pytestCase.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage_object\\login_page.py:25: in Login\n    self.input_text(self.username, usne)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testing_pom.page_object.login_page.LoginPage object at 0x0000026D4F238490>\nloc = ('name', 'username'), text = 15631223580\n\n    def input_text(self,loc,text):\n>           self.locator(loc).send_keys(text)\nE           AttributeError: 'NoneType' object has no attribute 'send_keys'\n\nbase\\basePage.py:21: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytestCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "ISS460602005002"
+  }, {
+    "name" : "thread",
+    "value" : "2608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pytestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "utxt",
+    "value" : "{'username': 15631223580, 'password': 'hu111111'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8f216e787c0b365.json",
+  "parameterValues" : [ "{'username': 15631223580, 'password': 'hu111111'}" ]
+}

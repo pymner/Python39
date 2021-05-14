@@ -1,0 +1,164 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "ISS460602005002",
+    "children" : [ {
+      "name" : "11492-MainThread",
+      "children" : [ {
+        "name" : "test_Search[god0]",
+        "uid" : "37d0c0b88a1fe640",
+        "parentUid" : "c6fe9000831e55bcff5f05c22927483d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620881881318,
+          "stop" : 1620881886196,
+          "duration" : 4878
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'goods': '人参'}" ]
+      }, {
+        "name" : "test_Login[utxt0]",
+        "uid" : "8ddb2b4a397fe987",
+        "parentUid" : "c6fe9000831e55bcff5f05c22927483d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620881872978,
+          "stop" : 1620881881312,
+          "duration" : 8334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223581, 'password': 'hu111111'}" ]
+      } ],
+      "uid" : "c6fe9000831e55bcff5f05c22927483d"
+    }, {
+      "name" : "13832-MainThread",
+      "children" : [ {
+        "name" : "test_Login[utxt0]",
+        "uid" : "d02f14cb724ce7cd",
+        "parentUid" : "93e7aaee495e1245a7a699fa70280747",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620881779273,
+          "stop" : 1620881786395,
+          "duration" : 7122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223581, 'password': 'hu111111'}" ]
+      }, {
+        "name" : "test_Login[utxt1]",
+        "uid" : "ddd5d54acdf3dd1",
+        "parentUid" : "93e7aaee495e1245a7a699fa70280747",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881786399,
+          "stop" : 1620881796864,
+          "duration" : 10465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223580, 'password': 'hu111111'}" ]
+      }, {
+        "name" : "test_Login[utxt2]",
+        "uid" : "513f05ccde27716b",
+        "parentUid" : "93e7aaee495e1245a7a699fa70280747",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881797272,
+          "stop" : 1620881807572,
+          "duration" : 10300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223581, 'password': 'hu111112'}" ]
+      }, {
+        "name" : "test_Search[god0]",
+        "uid" : "f79c22094886b9ea",
+        "parentUid" : "93e7aaee495e1245a7a699fa70280747",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620881807642,
+          "stop" : 1620881812500,
+          "duration" : 4858
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'goods': '人参'}" ]
+      }, {
+        "name" : "test_Search[god1]",
+        "uid" : "86629e0b24ecd064",
+        "parentUid" : "93e7aaee495e1245a7a699fa70280747",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881812500,
+          "stop" : 1620881820600,
+          "duration" : 8100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'goods': '小米'}" ]
+      } ],
+      "uid" : "93e7aaee495e1245a7a699fa70280747"
+    }, {
+      "name" : "2608-MainThread",
+      "children" : [ {
+        "name" : "test_Login[utxt2]",
+        "uid" : "39117ca0f343f50f",
+        "parentUid" : "79a27edb56db548b14a217d8a7c5d39a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881703236,
+          "stop" : 1620881703238,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223581, 'password': 'hu111112'}" ]
+      }, {
+        "name" : "test_Login[utxt0]",
+        "uid" : "8ccf1168a572799d",
+        "parentUid" : "79a27edb56db548b14a217d8a7c5d39a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881686526,
+          "stop" : 1620881699601,
+          "duration" : 13075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223581, 'password': 'hu111111'}" ]
+      }, {
+        "name" : "test_Login[utxt1]",
+        "uid" : "e8f216e787c0b365",
+        "parentUid" : "79a27edb56db548b14a217d8a7c5d39a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881700311,
+          "stop" : 1620881703204,
+          "duration" : 2893
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223580, 'password': 'hu111111'}" ]
+      }, {
+        "name" : "test_Search[god0]",
+        "uid" : "ba17ff02152db4d1",
+        "parentUid" : "79a27edb56db548b14a217d8a7c5d39a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881703326,
+          "stop" : 1620881703328,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'goods': '人参'}" ]
+      } ],
+      "uid" : "79a27edb56db548b14a217d8a7c5d39a"
+    } ],
+    "uid" : "087eb6e22b199f013c6aa86ceee50e4f"
+  } ]
+}

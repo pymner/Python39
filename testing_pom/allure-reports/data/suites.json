@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "pytest_case",
+    "children" : [ {
+      "name" : "test_pytestCase",
+      "children" : [ {
+        "name" : "TestCase",
+        "children" : [ {
+          "name" : "test_Login[utxt1]",
+          "uid" : "ddd5d54acdf3dd1",
+          "parentUid" : "2be4138b6c4ea716d76e9862c71787d0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1620881786399,
+            "stop" : 1620881796864,
+            "duration" : 10465
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 15631223580, 'password': 'hu111111'}" ]
+        }, {
+          "name" : "test_Login[utxt2]",
+          "uid" : "513f05ccde27716b",
+          "parentUid" : "2be4138b6c4ea716d76e9862c71787d0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1620881797272,
+            "stop" : 1620881807572,
+            "duration" : 10300
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 15631223581, 'password': 'hu111112'}" ]
+        }, {
+          "name" : "test_Search[god1]",
+          "uid" : "86629e0b24ecd064",
+          "parentUid" : "2be4138b6c4ea716d76e9862c71787d0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1620881812500,
+            "stop" : 1620881820600,
+            "duration" : 8100
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'goods': '小米'}" ]
+        }, {
+          "name" : "test_Login[utxt0]",
+          "uid" : "8ddb2b4a397fe987",
+          "parentUid" : "2be4138b6c4ea716d76e9862c71787d0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620881872978,
+            "stop" : 1620881881312,
+            "duration" : 8334
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 15631223581, 'password': 'hu111111'}" ]
+        }, {
+          "name" : "test_Search[god0]",
+          "uid" : "37d0c0b88a1fe640",
+          "parentUid" : "2be4138b6c4ea716d76e9862c71787d0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1620881881318,
+            "stop" : 1620881886196,
+            "duration" : 4878
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'goods': '人参'}" ]
+        } ],
+        "uid" : "2be4138b6c4ea716d76e9862c71787d0"
+      } ],
+      "uid" : "4a1f5ba58d749e0fb909ab21b575b375"
+    } ],
+    "uid" : "340aaf9039daeb61cf95abaeaebb7284"
+  } ]
+}

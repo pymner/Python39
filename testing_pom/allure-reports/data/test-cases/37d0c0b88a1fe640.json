@@ -1,0 +1,122 @@
+{
+  "uid" : "37d0c0b88a1fe640",
+  "name" : "test_Search[god0]",
+  "fullName" : "pytest_case.test_pytestCase.TestCase#test_Search",
+  "historyId" : "bcdb7df73fb7c7f67d1535a7427e091e",
+  "time" : {
+    "start" : 1620881881318,
+    "stop" : 1620881886196,
+    "duration" : 4878
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1620881870185,
+      "stop" : 1620881872973,
+      "duration" : 2788
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6bffeb54fa0d95a0",
+      "name" : "log",
+      "source" : "6bffeb54fa0d95a0.txt",
+      "type" : "text/plain",
+      "size" : 1199
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1620881886196,
+      "stop" : 1620881894296,
+      "duration" : 8100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytestCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "ISS460602005002"
+  }, {
+    "name" : "thread",
+    "value" : "11492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pytestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "god",
+    "value" : "{'goods': '人参'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f79c22094886b9ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620881807642,
+        "stop" : 1620881812500,
+        "duration" : 4858
+      }
+    }, {
+      "uid" : "ba17ff02152db4d1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=90.0.4430.93)",
+      "time" : {
+        "start" : 1620881703326,
+        "stop" : 1620881703328,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37d0c0b88a1fe640.json",
+  "parameterValues" : [ "{'goods': '人参'}" ]
+}

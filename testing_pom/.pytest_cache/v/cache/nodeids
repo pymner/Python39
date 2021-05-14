@@ -1,0 +1,7 @@
+[
+  "pytest_case/test_pytestCase.py::TestCase::test_Login[utxt0]",
+  "pytest_case/test_pytestCase.py::TestCase::test_Login[utxt1]",
+  "pytest_case/test_pytestCase.py::TestCase::test_Login[utxt2]",
+  "pytest_case/test_pytestCase.py::TestCase::test_Search[god0]",
+  "pytest_case/test_pytestCase.py::TestCase::test_Search[god1]"
+]

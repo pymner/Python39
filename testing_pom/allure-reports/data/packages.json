@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "pytest_case.test_pytestCase",
+    "children" : [ {
+      "name" : "test_Login[utxt1]",
+      "uid" : "ddd5d54acdf3dd1",
+      "parentUid" : "5f1fec44ae3b895a9522b1b3d782f8ea",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620881786399,
+        "stop" : 1620881796864,
+        "duration" : 10465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'username': 15631223580, 'password': 'hu111111'}" ]
+    }, {
+      "name" : "test_Login[utxt2]",
+      "uid" : "513f05ccde27716b",
+      "parentUid" : "5f1fec44ae3b895a9522b1b3d782f8ea",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620881797272,
+        "stop" : 1620881807572,
+        "duration" : 10300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'username': 15631223581, 'password': 'hu111112'}" ]
+    }, {
+      "name" : "test_Search[god1]",
+      "uid" : "86629e0b24ecd064",
+      "parentUid" : "5f1fec44ae3b895a9522b1b3d782f8ea",
+      "status" : "broken",
+      "time" : {
+        "start" : 1620881812500,
+        "stop" : 1620881820600,
+        "duration" : 8100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'goods': '小米'}" ]
+    }, {
+      "name" : "test_Login[utxt0]",
+      "uid" : "8ddb2b4a397fe987",
+      "parentUid" : "5f1fec44ae3b895a9522b1b3d782f8ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620881872978,
+        "stop" : 1620881881312,
+        "duration" : 8334
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'username': 15631223581, 'password': 'hu111111'}" ]
+    }, {
+      "name" : "test_Search[god0]",
+      "uid" : "37d0c0b88a1fe640",
+      "parentUid" : "5f1fec44ae3b895a9522b1b3d782f8ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620881881318,
+        "stop" : 1620881886196,
+        "duration" : 4878
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'goods': '人参'}" ]
+    } ],
+    "uid" : "pytest_case.test_pytestCase"
+  } ]
+}

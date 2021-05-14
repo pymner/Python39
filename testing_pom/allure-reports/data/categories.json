@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"username\"]\"}\n  (Session info: chrome=90.0.4430.93)",
+      "children" : [ {
+        "name" : "test_Login[utxt1]",
+        "uid" : "ddd5d54acdf3dd1",
+        "parentUid" : "cda6421ee2a27921278ab7f77cf9e254",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881786399,
+          "stop" : 1620881796864,
+          "duration" : 10465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223580, 'password': 'hu111111'}" ]
+      }, {
+        "name" : "test_Login[utxt2]",
+        "uid" : "513f05ccde27716b",
+        "parentUid" : "cda6421ee2a27921278ab7f77cf9e254",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881797272,
+          "stop" : 1620881807572,
+          "duration" : 10300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 15631223581, 'password': 'hu111112'}" ]
+      } ],
+      "uid" : "cda6421ee2a27921278ab7f77cf9e254"
+    }, {
+      "name" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=61497): Max retries exceeded with url: /session/f1532f9262be3ca7d4ef4f90806f9c6a/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000182439D4FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "children" : [ {
+        "name" : "test_Search[god1]",
+        "uid" : "86629e0b24ecd064",
+        "parentUid" : "9dc2c0af8daa84129b12d71929eb53ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620881812500,
+          "stop" : 1620881820600,
+          "duration" : 8100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'goods': '小米'}" ]
+      } ],
+      "uid" : "9dc2c0af8daa84129b12d71929eb53ec"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

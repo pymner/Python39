@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 13 12:58:01 CST 2021","Thu May 13 12:58:06 CST 2021","4878","pytest_case","test_pytestCase","TestCase","","","test_Search[god0]",""
+"broken","Thu May 13 12:56:26 CST 2021","Thu May 13 12:56:36 CST 2021","10465","pytest_case","test_pytestCase","TestCase","","","test_Login[utxt1]",""
+"broken","Thu May 13 12:56:37 CST 2021","Thu May 13 12:56:47 CST 2021","10300","pytest_case","test_pytestCase","TestCase","","","test_Login[utxt2]",""
+"broken","Thu May 13 12:56:52 CST 2021","Thu May 13 12:57:00 CST 2021","8100","pytest_case","test_pytestCase","TestCase","","","test_Search[god1]",""
+"passed","Thu May 13 12:57:52 CST 2021","Thu May 13 12:58:01 CST 2021","8334","pytest_case","test_pytestCase","TestCase","","","test_Login[utxt0]",""

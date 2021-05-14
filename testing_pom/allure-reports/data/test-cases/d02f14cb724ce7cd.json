@@ -1,0 +1,87 @@
+{
+  "uid" : "d02f14cb724ce7cd",
+  "name" : "test_Login[utxt0]",
+  "fullName" : "pytest_case.test_pytestCase.TestCase#test_Login",
+  "historyId" : "fa9da76b5f1bc1e3dc9e4ef73f8900cc",
+  "time" : {
+    "start" : 1620881779273,
+    "stop" : 1620881786395,
+    "duration" : 7122
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1620881776215,
+      "stop" : 1620881779270,
+      "duration" : 3055
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1620881821060,
+      "stop" : 1620881829160,
+      "duration" : 8100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytestCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "ISS460602005002"
+  }, {
+    "name" : "thread",
+    "value" : "13832-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pytestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "utxt",
+    "value" : "{'username': 15631223581, 'password': 'hu111111'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d02f14cb724ce7cd.json",
+  "parameterValues" : [ "{'username': 15631223581, 'password': 'hu111111'}" ]
+}

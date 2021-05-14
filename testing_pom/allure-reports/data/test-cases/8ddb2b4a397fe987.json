@@ -1,0 +1,106 @@
+{
+  "uid" : "8ddb2b4a397fe987",
+  "name" : "test_Login[utxt0]",
+  "fullName" : "pytest_case.test_pytestCase.TestCase#test_Login",
+  "historyId" : "fa9da76b5f1bc1e3dc9e4ef73f8900cc",
+  "time" : {
+    "start" : 1620881872978,
+    "stop" : 1620881881312,
+    "duration" : 8334
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1620881870185,
+      "stop" : 1620881872973,
+      "duration" : 2788
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1620881886196,
+      "stop" : 1620881894296,
+      "duration" : 8100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytestCase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "ISS460602005002"
+  }, {
+    "name" : "thread",
+    "value" : "11492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest_case.test_pytestCase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "utxt",
+    "value" : "{'username': 15631223581, 'password': 'hu111111'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d02f14cb724ce7cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620881779273,
+        "stop" : 1620881786395,
+        "duration" : 7122
+      }
+    }, {
+      "uid" : "8ccf1168a572799d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"username\"]\"}\n  (Session info: chrome=90.0.4430.93)",
+      "time" : {
+        "start" : 1620881686526,
+        "stop" : 1620881699601,
+        "duration" : 13075
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ddb2b4a397fe987.json",
+  "parameterValues" : [ "{'username': 15631223581, 'password': 'hu111111'}" ]
+}

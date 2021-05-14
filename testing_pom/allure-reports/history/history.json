@@ -1,0 +1,100 @@
+{
+  "7aa000c90240da732d9cf51d9844f9c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86629e0b24ecd064",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=61497): Max retries exceeded with url: /session/f1532f9262be3ca7d4ef4f90806f9c6a/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000182439D4FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1620881812500,
+        "stop" : 1620881820600,
+        "duration" : 8100
+      }
+    } ]
+  },
+  "bcdb7df73fb7c7f67d1535a7427e091e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37d0c0b88a1fe640",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620881881318,
+        "stop" : 1620881886196,
+        "duration" : 4878
+      }
+    } ]
+  },
+  "fa9da76b5f1bc1e3dc9e4ef73f8900cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ddb2b4a397fe987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620881872978,
+        "stop" : 1620881881312,
+        "duration" : 8334
+      }
+    } ]
+  },
+  "a9df7671109637ece12e5c0af9a5f07b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "513f05ccde27716b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"username\"]\"}\n  (Session info: chrome=90.0.4430.93)",
+      "time" : {
+        "start" : 1620881797272,
+        "stop" : 1620881807572,
+        "duration" : 10300
+      }
+    } ]
+  },
+  "64ae561846d88a541083b9eedee3edf0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddd5d54acdf3dd1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"username\"]\"}\n  (Session info: chrome=90.0.4430.93)",
+      "time" : {
+        "start" : 1620881786399,
+        "stop" : 1620881796864,
+        "duration" : 10465
+      }
+    } ]
+  }
+}

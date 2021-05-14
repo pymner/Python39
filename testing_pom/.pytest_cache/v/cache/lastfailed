@@ -1,0 +1,5 @@
+{
+  "pytest_case/test_pytestCase.py::TestCase::test_Login[utxt1]": true,
+  "pytest_case/test_pytestCase.py::TestCase::test_Login[utxt2]": true,
+  "pytest_case/test_pytestCase.py::TestCase::test_Search[god1]": true
+}
